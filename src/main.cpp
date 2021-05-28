@@ -78,7 +78,7 @@ int main(int argc, char ** argv){
     sf::VideoMode(960,540+reserved),
     "SFML",
     sf::Style::Default);
-  //window.setFramerateLimit(60);
+  window.setFramerateLimit(60);
 
   // quads to draw the sparse array quickly
   sf::VertexArray map_states(sf::Quads,4*n*m);
