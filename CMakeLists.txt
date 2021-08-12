@@ -17,7 +17,3 @@ include_directories(include)
 target_link_libraries(AstarVis sfml-system sfml-window sfml-graphics sfml-audio X11)
 
 add_executable(test tests/tests.cpp tests/catch_amalgamated.cpp)
-
-add_executable(video tests/video.cpp src/map.cpp src/display.cpp src/pathfinder.cpp src/sound.cpp)
-include_directories(include)
-target_link_libraries(video sfml-system sfml-window sfml-graphics sfml-audio X11)
